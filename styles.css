@@ -53,9 +53,9 @@ footer{
     color: rgb(207, 207, 207);
 }
 .description{
-    font-size: 25px;
+    font-size: 2vh;
     font-weight: bold;
-    margin: 10% 200px 80px 50px;
+    margin: 10% 200px 0px 50px;
 }
 .form{
     background-color: rgb(20, 20, 20);
