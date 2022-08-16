@@ -22,7 +22,7 @@
 </div>
     <div class = "rightSide">
         <div class = "description">
-            <p>This is not a real website! You know you need something like this in your life to help you kick start your 
+            <p>This is not a real website! But you know you need something like this in your life to help you kick start your 
               dreams/business.<br> Sign up now to get started.<p>
             <p2>You wont regret it :)</p2>
         </div>
@@ -33,37 +33,37 @@
                 <label for="firstName">
                   <span>FIRST NAME:</span>
                 </label><br>
-                <input type="text" id="firstName">
+                <input type="text" id="firstName"  title="Please enter just the first name. No numbers or symbols please" required>
               </p>
               <p>
                 <label for="lastName">
                   <span>LAST NAME:</span>
                 </label><br>
-                <input type="text" id="lastname">
+                <input type="text" id="lastname" title ="Please enter just the last name. no numbers or symbols please" required>
               </p>
               <p>
                 <label for="email">
                   <span>EMAIL:</span>
                 </label><br>
-                <input type="text" id="email">
+                <input type="text" id="email" title ="please enter your email address" required>
               </p>
               <p>
                 <label for="phoneNumber">
                   <span>PHONE NUMBER:</span>
                 </label><br>
-                <input type="text" id="phoneNumber">
+                <input type="text" id="phoneNumber" maxlength="10" title ="please enter your phone number without -'s" required>
               </p>
               <p>
                 <label for="password">
                   <span>PASSWORD:</span>
                 </label><br>
-                <input type="text" id="password">
+                <input type="text" id="password" minlength="4" maxlength="20" title ="please enter a password between 4 and 20 characters" required>
               </p>
               <p>
                 <label for="confirmPassword">
                   <span>CONFIRM PASSWORD:</span>
                 </label><br>
-                <input type="text" id="confirmPassword">
+                <input type="text" id="confirmPassword" minlength="4" maxlength="20" title ="please enter a password between 4 and 20 characters" required>
               </p>
             </div>
               <section>
@@ -79,4 +79,5 @@
     </div>
 </div>
 </body>
+<script src ="javascript.js" rel="javascript"></script>
 </html>
