@@ -30,22 +30,22 @@
         <h1>Let's do this!</h1>
         <form>
             <p>
-                <label for="firstName">
-                  <span>FIRST NAME:</span>
+                <label for="country">
+                  <span>COUNTRY:</span>
                 </label><br>
-                <input type="text" id="firstName"  title="Please enter just the first name. No numbers or symbols please" required>
+                <input type="text" id="country"  title="Please enter country name" required>
               </p>
               <p>
-                <label for="lastName">
-                  <span>LAST NAME:</span>
+                <label for="ZipCode">
+                  <span>ZipCode:</span>
                 </label><br>
-                <input type="text" id="lastname" title ="Please enter just the last name. no numbers or symbols please" required>
+                <input type="number" id="zipCode" title ="Please enter zipCode" required>
               </p>
               <p>
                 <label for="email">
                   <span>EMAIL:</span>
                 </label><br>
-                <input type="text" id="email" title ="please enter your email address" required>
+                <input type="email" id="email" title ="please enter your email address" required>
               </p>
               <p>
                 <label for="phoneNumber">
@@ -57,18 +57,18 @@
                 <label for="password">
                   <span>PASSWORD:</span>
                 </label><br>
-                <input type="text" id="password" minlength="4" maxlength="20" title ="please enter a password between 4 and 20 characters" required>
+                <input type="text" id="password" name="password" minlength="4" maxlength="20" title ="please enter a password between 4 and 20 characters" required>
               </p>
               <p>
                 <label for="confirmPassword">
                   <span>CONFIRM PASSWORD:</span>
                 </label><br>
-                <input type="text" id="confirmPassword" minlength="4" maxlength="20" title ="please enter a password between 4 and 20 characters" required>
+                <input type="text" id="confirmPassword" name="confirmPassword" minlength="4" maxlength="20" title ="please enter a password between 4 and 20 characters" required>
               </p>
             </div>
               <section>
                 <p>
-                  <button type="submit">Create Account</button>
+                  <button id = "createAccount">Create Account</button>
                 </p>
             </section>
         </form>
